@@ -1,0 +1,55 @@
+body {
+    background-color: powderblue;
+}
+
+#image{
+    margin: auto;
+    height: 340px;
+    width: 340px;
+    border: 3px solid rgb(105, 151, 211);
+    display: flex;
+}
+
+#scates {
+    background-size: 340px 340px;
+    height: 340px;  
+    width: 340px;
+    background-repeat: no-repeat;
+    background-color: rgb(243, 243, 243);
+}
+
+#stars{
+    margin: auto;
+    height: 40px;
+    width: 20%;
+    padding: 10px;
+    display: flex;
+}
+#text{
+    margin: auto;
+    height: 40px;
+    width: 30%;
+    padding-top: 20px;
+    display: flex;
+}
+
+button {
+    height: 30px;
+    padding: 20px;
+    width: 30px;
+}
+
+.plus{
+    background-image: url('./images/star.png');
+    background-size: 20px 20px;
+    width:30px;
+    height:30px;
+    background-repeat:no-repeat;
+}
+
+.plus.minus{
+    background-image: url('./images/Plain_Yellow_Star.png');
+    width:30px;
+    height:30px;
+    background-repeat:no-repeat;
+}
