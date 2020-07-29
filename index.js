@@ -16,5 +16,5 @@ function myFunction(star) {
         element = document.getElementsByClassName('plus')[i];
         element.classList.remove("minus");
     }
-    document.getElementById('text').innerHTML = `Thanks for ${star} review!`
+    document.getElementById('text').innerHTML = `Thanks for ${star} stars review!`
   }

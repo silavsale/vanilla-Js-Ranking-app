@@ -28,15 +28,9 @@ body {
 #text{
     margin: auto;
     height: 40px;
-    width: 30%;
+    width: 40%;
     padding-top: 20px;
     display: flex;
-}
-
-button {
-    height: 30px;
-    padding: 20px;
-    width: 30px;
 }
 
 .plus{
